@@ -10,6 +10,11 @@
   border-radius: 50%; 
 }
 
+/* Add a hover effect if you want */
+.fa:hover {
+  background: white;
+}
+
 /* Set a specific color for each brand */
 
 /* Facebook */
@@ -42,7 +47,21 @@
   color: white;
 }
 
-img:hover {
+/* Google Map */
+.fa-map-marker {
+  background: #1EA362;
+  color: white;
+}
+
+/* Phone */
+.fa-phone {
+  background: #5200FF;
+  color: white;
+}
+
+
+
+.img-shake:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s; 
 
@@ -63,4 +82,3 @@ img:hover {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
