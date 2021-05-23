@@ -1,5 +1,5 @@
 /* Style all font awesome icons */
-.fa {
+.social-media-icon {
   padding: 8px;
   font-size: 20px;
   width: 40px;
@@ -9,18 +9,30 @@
   margin-bottom: 5px;
   border-radius: 50%;
   color: white;
-  background: #7779f3;
-  opacity: 0.9; 
+  background: rgba(219, 125, 24,0.9);
+  opacity: 1  ; 
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
+.bg-yellow {
+  background: rgba(219, 125, 24,0.9);
+}
+
+.bg-brown {
+  background: rgba(115, 72, 73,1);
+}
+
+.text-yellow {
+  color: rgba(219, 125, 24,0.9);
+}
+
+/* Add a hover effect if you want   #7779f3*/
+.social-media-icon:hover {
   background: white;
+  color: #734B4B;
 }
 
 .text-feature {
-  color: #db7d18;
-  opacity: 1;
+  color: rgba(219, 125, 24,1);
   text-shadow: 1px 1px 0.5px #734B4B;
 /*  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #734B4B;  */
