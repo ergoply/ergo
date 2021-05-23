@@ -59,14 +59,19 @@
   color: white;
 }
 
+.text-feature {
+  color: #db7d18;
+/*  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #734B4B;  */
+}
 
 
 .img-shake:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.5s; 
+  animation: shake 1.1s; /* orginal 0.5s */ 
 
   /* When the animation is finished, start again */
-  animation-iteration-count: infinite; 
+  animation-iteration-count: 1; /* orginal infinite */
 }
 
 @keyframes shake {
