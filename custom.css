@@ -7,7 +7,10 @@
   text-decoration: none;
   margin: 5px;
   margin-bottom: 5px;
-  border-radius: 50%; 
+  border-radius: 50%;
+  color: white;
+  background: #7779f3;
+  opacity: 0.9; 
 }
 
 /* Add a hover effect if you want */
@@ -15,52 +18,9 @@
   background: white;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-  background: #8A3AB9;
-  color: white;
-}
-
-/* Youtube */
-.fa-youtube {
-  background: #FF0000;
-  color: white;
-}
-
-/* Whatsapp */
-.fa-whatsapp {
-  background: #25D366;
-  color: white;
-}
-
-/* Google Map */
-.fa-map-marker {
-  background: #1EA362;
-  color: white;
-}
-
-/* Phone */
-.fa-phone {
-  background: #5200FF;
-  color: white;
-}
-
 .text-feature {
   color: #db7d18;
+  opacity: 1;
   text-shadow: 1px 1px 0.5px #734B4B;
 /*  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #734B4B;  */
@@ -88,3 +48,4 @@
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
