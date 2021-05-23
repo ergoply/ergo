@@ -61,7 +61,7 @@
 
 .text-feature {
   color: #db7d18;
-  text-shadow: 1px 1px 1px red;
+  text-shadow: 1px 1px 0.5px #734B4B;
 /*  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #734B4B;  */
 }
