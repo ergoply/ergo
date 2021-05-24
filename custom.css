@@ -13,12 +13,38 @@
   opacity: 1  ; 
 }
 
+.contact-us-icon {
+  padding: 8px;
+  font-size: 25px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 15px;
+  border-radius: 50%;
+  color: rgba(219, 125, 24,0.9);
+  opacity: 1;
+  border-color: : rgba(219, 125, 24,0.9);
+  border-style: solid;
+  border-width: 1px; 
+}
+
+.contact-us-icon:hover {
+  background: white;
+  color: rgba(219, 125, 24,0.9);
+}
+
+
 .bg-yellow {
   background: rgba(219, 125, 24,0.9);
 }
 
 .bg-brown {
   background: rgba(115, 72, 73,1);
+}
+
+.text-brown {
+ /* color: rgba(115, 72, 73,1); */
+  color: rgba(115, 75, 75,1);
 }
 
 .text-yellow {
@@ -64,4 +90,3 @@
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
