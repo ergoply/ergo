@@ -68,6 +68,10 @@
   transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.zoom-10:hover {
+  transform: scale(1.10); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 
 .img-shake:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
